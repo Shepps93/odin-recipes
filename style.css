@@ -10,7 +10,9 @@ h1 {
   text-align: center;
 }
 
-p ul {
+p,
+ul, 
+ol {
   font-family: Helvetica;
 }
 
@@ -18,4 +20,16 @@ p ul {
 h4 {
   color: green;
   font-family: Luminari, Helvetica;
+}
+
+
+.ingredients,
+.cooking {
+  font-family: Luminari, Helvetica;
+  color: green;
+}
+
+.timer {
+  color: red;
+  text-align: center;
 }
